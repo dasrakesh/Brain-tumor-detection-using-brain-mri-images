@@ -1,5 +1,6 @@
-Link - https://figshare.com/articles/brain_tumor_dataset/1512427/5
-If anyone wants to downlaod dataset used in this project then you can refer to above given link
+If anyone wants to downlaod dataset used in this project then you can refer to below given link
+                Link - https://figshare.com/articles/brain_tumor_dataset/1512427/5
+
 # Brain-tumor-detection-using-brain-mri-images
 In this project I identified the types of brain tumor from MRI images using Machine learning techniques
 # Introduction
