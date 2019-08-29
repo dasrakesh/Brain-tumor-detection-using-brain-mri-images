@@ -3,7 +3,7 @@ If anyone wants to downlaod dataset used in this project then you can refer to b
                 Link - https://figshare.com/articles/brain_tumor_dataset/1512427/5
 
 # Brain-tumor-detection-using-brain-mri-images
-In this project I identified the types of brain tumor from MRI images using Machine learning techniques
+In this project I identified the types of brain tumor from MRI images and train/test a model using Machine learning techniques
 # Introduction
 1. MRI is a technique  that uses powerful magnets, radio waves, and a computer to make detailed pictures inside our body.
 2. MRIs can be done on different parts of our body
