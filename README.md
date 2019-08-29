@@ -20,17 +20,18 @@ are necessary for further analysis
 # IMAGE AQUISITION
 This brain tumor dataset containing 3064 T1-weighted contrast-inhanced images
 from 233 patients with three kinds of brain tumor: 
-meningioma (708 slices), 
-glioma (1426 slices), and 
-pituitary tumor (930 slices).
+
+        meningioma (708 slices), 
+        glioma (1426 slices), and 
+        pituitary tumor (930 slices).
 This data is organized in matlab data format (.mat file). Each file stores a struct
 containing the following fields for an image:
 
-cjdata.label: 1 for meningioma, 2 for glioma, 3 for pituitary tumor
-cjdata.PID: patient ID
-cjdata.image: image data
-cjdata.tumorBorder: a vector storing the coordinates of discrete points on tumor border.
-cjdata.tumorMask: a binary image with 1s indicating tumor region
+        cjdata.label: 1 for meningioma, 2 for glioma, 3 for pituitary tumor
+        cjdata.PID: patient ID
+        cjdata.image: image data
+        cjdata.tumorBorder: a vector storing the coordinates of discrete points on tumor border.
+        cjdata.tumorMask: a binary image with 1s indicating tumor region
 
 # Image Preprocessing
 1. Image de-noising is an important task in any type of image processing
@@ -49,7 +50,8 @@ This is because different processing steps rely on accurate segmentation of anat
 # Feature Extraction
 1. It is the process of collecting higher-level information of an image such as shape, texture, color, and contrast
 2. It is used effectively to improve the accuracy of diagnosis system by selecting prominent features
-3. We have extracted following features sucha s:
+3. We have extracted following features such as:
+        
         -Entropy
         -Standard Deviation
         -Mean
@@ -60,12 +62,13 @@ This is because different processing steps rely on accurate segmentation of anat
 # Classification
 The computer program learns from the data input given to it and then uses this learning to classify new observation
 Here we have used different supervised as well as unsupervised algorithms such as:
-  -KNN
-  -SVM
-  -Random Forest
-  -Decision tree
-  -Naive bayes
-  -MLP
+  
+          -KNN
+          -SVM
+          -Random Forest
+          -Decision tree
+          -Naive bayes
+          -MLP
 
 
 
