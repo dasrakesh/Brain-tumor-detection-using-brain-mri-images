@@ -3,12 +3,12 @@ If anyone wants to downlaod dataset used in this project then you can refer to a
 # Brain-tumor-detection-using-brain-mri-images
 In this project I identified the types of brain tumor from MRI images using Machine learning techniques
 # Introduction
-1.MRI is a technique  that uses powerful magnets, radio waves, and a computer to make detailed pictures inside our body.
-2.MRIs can be done on different parts of our body
-3.It is useful for looking at soft tissues and the nervous system
-4.Information  technology  and  e-health  care  system  in  the medical field helps clinical experts to provide effective diagnosis,
+1. MRI is a technique  that uses powerful magnets, radio waves, and a computer to make detailed pictures inside our body.
+2. MRIs can be done on different parts of our body
+3. It is useful for looking at soft tissues and the nervous system
+4. Information  technology  and  e-health  care  system  in  the medical field helps clinical experts to provide effective diagnosis,
 treatment and monitoring of the  disease  for  better  health  care  to  the  patient 
-#Methodology
+# Methodology
 The image processing techniques are applied to the dataset that we have acquired then we have extracted the useful features that 
 are necessary for further analysis
 1.Image Aquisition
